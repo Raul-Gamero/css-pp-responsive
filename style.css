@@ -79,6 +79,7 @@ p {
         padding: 0;
         border: 0;
          /* Align items vertically */
+         justify-content: space-between; /* Align items vertically */
         
 
 
