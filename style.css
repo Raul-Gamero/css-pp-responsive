@@ -44,15 +44,55 @@ p {
   
   /* Estilos para pantallas de escritorio (ancho mínimo de 992px) */
   @media (min-width: 992px) {
-    body {
-      background-color: #e0e0e0;
+    /* Apply display grid to the body */
+    .main {
+      margin: 0;
+      padding: 10px;
+      height: 100vh; /* Full height of the viewport */
+      background-color: #f0f0f0; /* Light gray background */
     }
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
+
+    /* Styling the header */
+    .header {
+      grid-area: header; /* Assigns the area to the header */
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Styling the hero section */
+    .hero {
+      grid-area: hero; /* Assigns the area to the hero section */
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Styling the content section */
+    .content {
+      grid-area: content; /* Assigns the area to the content */
+      padding: 10px;
+    }
+
+    /* Styling the sidebar */
+    .sidebar {
+      grid-area: sidebar; /* Assigns the area to the sidebar */
+      padding: 10px;
+    }
+
+    /* Styling the footer */
+    .footer {
+    grid-area: footer; /* Assigns the area to the footer */
+    padding: 10px;
+    text-align: center;
     }
   }
   
+
+
+
+
+
+
+
   /* Estilos para tabletas (ancho entre 768px y 991px) */
   @media (min-width: 768px) and (max-width: 991px) {
     .main {
