@@ -41,7 +41,6 @@ p {
     text-align: left;
 }
 
-  
   /* Estilos para pantallas de escritorio (ancho mínimo de 992px) */
   @media (min-width: 992px) {
     /* Apply display grid to the body */
@@ -51,8 +50,6 @@ p {
       height: 100vh; /* Full height of the viewport */
       width: 100vw; /* Full width of the viewport */
       background-color: #f0f0f0; /* Light gray background */
-
-      
     }
 
     .header {
@@ -73,11 +70,6 @@ p {
       margin: 0 auto;  
     }
 
-    /* Styling the header */
-    
-
-   
-
     /* Styling the content section */
     .content {
       padding: 10px;
@@ -96,13 +88,6 @@ p {
     }
   }
   
-
-
-
-
-
-
-
   /* Estilos para tabletas (ancho entre 768px y 991px) */
   @media (min-width: 768px) and (max-width: 991px) {
     .main {
@@ -155,16 +140,10 @@ p {
         padding: 10px;
         text-align: center;
       }
-
-      
-      
-
   }
   
   /* Estilos para móviles (ancho máximo de 767px) */
   @media (max-width: 767px) {
-    
-    
     body {
         background-color: #c0c0c0;
         display: flex;
@@ -176,12 +155,8 @@ p {
         border: 0;
          /* Align items vertically */
          justify-content: space-between; /* Align items vertically */
-        
-
-
     }
 
-    
     .header {
         flex: 0 0 2%;
     }
@@ -212,8 +187,6 @@ p {
         display: flex; /* Using flexbox for better alignment */
         flex-direction: column; /* Stack elements vertically */
         gap: 30px; /* Space between flex items */;
-    }
-
-    
+    }   
   }
   
